@@ -81,15 +81,15 @@ Ce document présente les étapes pour configurer un partage de fichiers NFS (Ne
      ```bash
      exportfs -v
      ```
-   -  Rafraîchit la liste des partages après modification de /etc/exports :
+   -  Rafraîchit la liste des partages après modification de /etc/exports. :
      ```bash
      exportfs -r
      ```
-   -  exporte (o u recharge) tous les partages de /etc/exports ou un partage donné :
+   -  Exporte (o u recharge) tous les partages de /etc/exports ou un partage donné. :
      ```bash
      exportfs -a
      ```
-   - Stoppe le partage donné et -a pour tous.  :
+   -  Stoppe le partage donné et -a pour tous.  :
      ```bash
      exportfs -u
      ```
